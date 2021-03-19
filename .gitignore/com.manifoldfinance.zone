@@ -1,0 +1,21 @@
+$ORIGIN manifoldfinance.com.
+$TTL 1h
+manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125923 86400 7200 604800 300
+manifoldfinance.com. 3600 IN NS ns1.dnsimple.com.
+manifoldfinance.com. 3600 IN NS ns2.dnsimple.com.
+manifoldfinance.com. 3600 IN NS ns3.dnsimple.com.
+manifoldfinance.com. 3600 IN NS ns4.dnsimple.com.
+krs._domainkey.manifoldfinance.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNVDNuhnApMy6bmNextoB3kw9wlrFb+1PiOiqaSiGVzh6VyG6QrZxrPnrzeWiY+t4gWOMNVZSrlwig95StemdGKwHhO4SmC5CykCLAKwDCqgiH33egZ+CBFCBZEErn4FXshpVj3dHuMdpY92Wa8ihbE+FByyg5mwuK602Ygwa9AwIDAQAB"
+manifoldfinance.com. 3600 IN TXT "google-site-verification=VQ9jP5l0XGg6_DmJOasKguAxD6121-TC1UlohNEtty8"
+www.manifoldfinance.com. 3600 IN CNAME manifoldwww.netlify.app.
+manifoldfinance.com. 3600 IN MX 1 ASPMX.L.GOOGLE.COM.
+manifoldfinance.com. 3600 IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
+manifoldfinance.com. 3600 IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
+manifoldfinance.com. 3600 IN MX 10 ALT3.ASPMX.L.GOOGLE.COM.
+manifoldfinance.com. 3600 IN MX 10 ALT4.ASPMX.L.GOOGLE.COM.
+; manifoldfinance.com. 3600 IN ALIAS manifoldwww.netlify.app.
+manifoldfinance.com. 3600 IN TXT "ALIAS for manifoldwww.netlify.app"
+manifoldfinance.com. 3600 IN TXT "v=spf1 include:_spf.google.com ~all"
+google._domainkey.manifoldfinance.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwM/2YHNuGPipTza4U5VoV+8Wm81HbMHCPpZ+cjaSah9vu9igcrBv+BQn82K9GyZ2gVn1H/5WHByX5SteSX38ZxKJl8dOE2tscClCzlYAsl38B4q/q0aGuR0kEc6BPQluHV81DxDSWwD3MU4xPmWfqlyu8LPw/I1HuianaQPaWl9vgxLcfjXaJDSbEF9pKPTlNidZJrPXDq4V43W8XUQyp6QdEtMJngYtOWmyEOPwjQQqhaOnU1Y5WE1NXDEi8Mfcqt0bbWTezxAB/TeDKm1KUyxCiXOFj5UIPt2VQAmOYRC71aMRNcXAXuXsW1+KXI8638H1MYZ2k2fCk24PNGM/jwIDAQAB"
+calendar.manifoldfinance.com. 3600 IN CNAME ghs.googlehosted.com.
+mail.manifoldfinance.com. 3600 IN CNAME ghs.googlehosted.com.
