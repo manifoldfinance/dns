@@ -1,0 +1,20 @@
+*.zone text eol=lf
+*.sh text eol=lf
+
+# SSH/SSL certificate related files:
+*.cer binary
+*.crt binary
+*.csr binary
+*.der binary
+*.p7b binary
+*.p7r binary
+*.spc binary
+*.pfx binary
+*.p12 binary
+*.crl binary
+*.pem binary
+*.key binary
+*.jks binary
+*.keystore binary
+cacerts binary
+
