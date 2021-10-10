@@ -5,7 +5,7 @@
 ## Overview
 
 - manifoldfinance.com
-- manifoldx.com
-- maidenlane.net
-- backbonecabal.com
-- backbonecabal.xyz
+- manifoldx.{org,com,net}
+- sushirelay.com
+- openmev.{org,com,net}
+- (.*).{gtld}
