@@ -1,11 +1,15 @@
-$ORIGIN manifoldx.com.
-$TTL 1h
-manifoldx.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1572477476 86400 7200 604800 300
-manifoldx.com. 3600 IN NS ns1.dnsimple.com.
-manifoldx.com. 3600 IN NS ns2.dnsimple.com.
-manifoldx.com. 3600 IN NS ns3.dnsimple.com.
-manifoldx.com. 3600 IN NS ns4.dnsimple.com.
-; manifoldx.com.. 3600 IN URL https://
-; www.manifoldx.com. 3600 IN URL https://
-manifoldx.com. 3600 IN TXT "v=DMARC1; p=reject; aspf=s; adkim=s;"
-manifoldx.com. 3600 IN TXT "v=spf1 -all"
+manifoldx.com	3600	IN	SOA	manifoldx.com root.manifoldx.com 2038654358 7200 3600 86400 3600
+
+;; MX Records
+manifoldx.com.	1	IN	MX	1 aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	5 alt2.aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	5 alt1.aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	10 alt3.aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	10 alt4.aspmx.l.google.com.
+
+;; TXT Records
+_dmarc.manifoldx.com.	1	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:reports@manifoldx.com; ruf=mailto:reports@manifoldx.com; pct=100; fo=0:1:d:s;"
+google._domainkey.manifoldx.com.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArwRoH9AgQgYR6b4vWYj6W/f2XjH3WyfqDQsNXGun1725bk0GfnqQJwldfql3Bxm6/9QnhA5Viq9r1jNe62ItonSOBMtwylw6mCXTAT7jFBYR1TTPplHpw5X1dDlqS2bHA1LLjHF4sVr9nNuniyInJ6qArw3O1aTAMxP/CVGxBK6QhWoaQSW3OVMghQIbaE7CZObU0T2bIJipQZF9DUO8tEUOK2eaZsakztHICMSrOdkqzR5gurn8I7lXnacpXRFUa0zIPAOqs20MO1nok1Gm6vp3NiEML72IRTQdEXNsKCBPLlkxR9bqQs3iUc4XwSA2DcEqfOE/aubFRq+AHZDFjwIDAQAB"
+manifoldx.com.	1	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+manifoldx.com.	1	IN	TXT	"google-site-verification=lQLwC4s7gjeQSGZxTsNzh9_SYYpLWfzmPHHoIVVDKc0"
+_smtp._tls.manifoldx.com.	1	IN	TXT	"v=TLSRPTv1;rua=reports@manifoldx.com;"
