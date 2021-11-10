@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     sushirelay.com.
-;; Exported:   2021-10-22 04:30:23
+;; Exported:   2021-11-10 02:04:24
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,16 +24,16 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-sushirelay.com	3600	IN	SOA	sushirelay.com root.sushirelay.com 2038654362 7200 3600 86400 3600
+sushirelay.com	3600	IN	SOA	sushirelay.com root.sushirelay.com 2038817646 7200 3600 86400 3600
 
 ;; A Records
 api.staging.sushirelay.com.	1	IN	A	145.40.81.198
 api.sushirelay.com.	1	IN	A	145.40.81.91
-eth-prod.sushirelay.com.	1	IN	A	135.148.100.81
+eth-prod.sushirelay.com.	1	IN	A	135.148.103.181
 eth-prod.sushirelay.com.	1	IN	A	135.148.103.17
+eth-prod.sushirelay.com.	1	IN	A	135.148.100.81
 eth-prod.sushirelay.com.	1	IN	A	135.148.103.148
 eth-prod.sushirelay.com.	1	IN	A	135.148.103.176
-eth-prod.sushirelay.com.	1	IN	A	135.148.103.181
 eth-prod.sushirelay.com.	1	IN	A	147.135.11.172
 grafana.sushirelay.com.	1	IN	A	147.135.10.141
 kube-apiserver.eth-prod.sushirelay.com.	1	IN	A	147.135.11.172
@@ -46,6 +46,9 @@ relay.sushirelay.com.	1	IN	A	139.178.82.201
 staging.sushirelay.com.	1	IN	A	145.40.81.198
 sushirelay.com.	1	IN	A	145.40.81.91
 vminsert-vmcluster.sushirelay.com.	1	IN	A	147.135.10.141
+
+;; CNAME Records
+app.sushirelay.com.	1	IN	CNAME	cname.vercel-dns.com.
 
 ;; TXT Records
 api-staging.sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/cm-acme-http-solver-8lwm8\""
@@ -60,6 +63,7 @@ monitoring.sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=
 relay.staging.sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-websocket-relay\""
 relay.sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-websocket-relay\""
 staging.sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-sushiswap-interface\""
+sushirelay.com.	1	IN	TXT	"google-site-verification=5GYr-wURi_Dqu4taHzu0Gx_lpfoWu4cEjHXEweWKIrw"
 sushirelay.com.	1	IN	TXT	"v=spf1 -all"
 sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-sushiswap-interface\""
 vminsert-vmcluster.sushirelay.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/vminsert-vmcluster\""
