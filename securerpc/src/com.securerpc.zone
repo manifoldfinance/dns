@@ -1,0 +1,57 @@
+;;
+;; Domain:     securerpc.com.
+;; Exported:   2022-05-14 21:14:28
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2040422946 7200 3600 86400 3600
+
+;; A Records
+api.securerpc.com.	1	IN	A	51.81.93.106
+api.securerpc.com.	1	IN	A	51.81.56.56
+api.securerpc.com.	1	IN	A	147.135.70.119
+api.securerpc.com.	1	IN	A	147.135.65.21
+api.securerpc.com.	1	IN	A	147.135.65.191
+api.securerpc.com.	1	IN	A	147.135.5.171
+api.securerpc.com.	1	IN	A	135.148.171.175
+gibson.securerpc.com.	1	IN	A	51.81.93.106
+gibson.securerpc.com.	1	IN	A	51.81.56.56
+gibson.securerpc.com.	1	IN	A	147.135.70.119
+gibson.securerpc.com.	1	IN	A	147.135.65.21
+gibson.securerpc.com.	1	IN	A	147.135.65.191
+gibson.securerpc.com.	1	IN	A	147.135.5.171
+gibson.securerpc.com.	1	IN	A	135.148.171.175
+
+;; CNAME Records
+securerpc.com.	1	IN	CNAME	cname.vercel-dns.com.
+www.securerpc.com.	1	IN	CNAME	cname.vercel-dns.com.
+
+;; MX Records
+securerpc.com.	1	IN	MX	10 mxb.mailgun.org.
+securerpc.com.	1	IN	MX	10 mxa.mailgun.org.
+
+;; TXT Records
+api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-api-securerpc-com\""
+gibson.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-gibson-securerpc-com\""
+mx._domainkey.securerpc.com.	1	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfvspPI85tqaimc18W7fFRufthSiL7kj4aXH4OAzkFBxVO80ol1o8X/5xkSPNssm5hu4xWiPuci/SU48xz4vN8Hy13NdnEnppRPSReMKvf3WEXzl7j+TEcCrIxdebqaQ0h/X3IPrTgeFdbkNbTLrArAOZqxP428PWHdYBpYOgGAQIDAQAB"
+securerpc.com.	1	IN	TXT	"v=spf1 include:mailgun.org -all"
