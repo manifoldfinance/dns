@@ -1,0 +1,20 @@
+$ORIGIN securerpc.com.
+$TTL 1h
+securerpc.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1641932826 86400 7200 604800 300
+securerpc.com. 3600 IN NS ns1.dnsimple.com.
+securerpc.com. 3600 IN NS ns2.dnsimple.com.
+securerpc.com. 3600 IN NS ns3.dnsimple.com.
+securerpc.com. 3600 IN NS ns4.dnsimple.com.
+securerpc.com. 3600 IN A 76.76.21.21
+securerpc.com. 3600 IN MX 10 mxa.mailgun.org.
+securerpc.com. 3600 IN MX 10 mxb.mailgun.org.
+securerpc.com. 3600 IN SPF v=spf1 include:mailgun.org ~all
+securerpc.com. 3600 IN TXT "v=spf1 include:mailgun.org ~all"
+mx._domainkey.securerpc.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfvspPI85tqaimc18W7fFRufthSiL7kj4aXH4OAzkFBxVO80ol1o8X/5xkSPNssm5hu4xWiPuci/SU48xz4vN8Hy13NdnEnppRPSReMKvf3WEXzl7j+TEcCrIxdebqaQ0h/X3IPrTgeFdbkNbTLrArAOZqxP428PWHdYBpYOgGAQIDAQAB"
+; securerpc.com. 3600 IN ALIAS apex-loadbalancer.netlify.com.
+securerpc.com. 3600 IN TXT "ALIAS for apex-loadbalancer.netlify.com"
+securerpc.com. 3600 IN DNSKEY 257 3 8 AwEAAashqQxpU9IZMedMCmYclLlPhtHXcym3WSA1UAtA0KmNLBSm7WnldMM2OVJgPUdyatj6gQ5SFVQES5EhezTsT05AMDH3Je+X/6Eb8b3Yih9Ds/3fhI7sbLIOdT+z0p60+e2ptyhJp5jSZEYXSp+6DQNJiUn/EneNaun6GhuPkxEbfVKfngp2thXvZK8fKIBn4EQPSsdYFvSj3gUxfElI9Is=
+securerpc.com. 3600 IN DNSKEY 256 3 8 AwEAAcbeYef+u/WhXi/rgOgfNDEcuaDpA9Uf5Kb/jthZSjbikNPFQHBHJp4bcI6hblfU4Br27kRRyIMXb0o8E3K9OenDwVX35dBeBUYChJihRZ/s9Wl75XvpOeX8mbffAlkfvPxKHmfY8FGETr2yeb00bZnRqdHiCqqXRtLZGtbUcCYB
+securerpc.com. 3600 IN CDNSKEY 257 3 8 AwEAAashqQxpU9IZMedMCmYclLlPhtHXcym3WSA1UAtA0KmNLBSm7WnldMM2OVJgPUdyatj6gQ5SFVQES5EhezTsT05AMDH3Je+X/6Eb8b3Yih9Ds/3fhI7sbLIOdT+z0p60+e2ptyhJp5jSZEYXSp+6DQNJiUn/EneNaun6GhuPkxEbfVKfngp2thXvZK8fKIBn4EQPSsdYFvSj3gUxfElI9Is=
+securerpc.com. 3600 IN CDS 28160 8 2 B0890C4141F776EAFAD72F63B6B1E3F88AFE99544F992F8E060668AAAA217D8D
+www.securerpc.com. 3600 IN CNAME securerpc-www.netlify.app.
