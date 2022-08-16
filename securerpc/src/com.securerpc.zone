@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     securerpc.com.
-;; Exported:   2022-08-16 05:51:36
+;; Exported:   2022-08-16 16:02:19
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2041229569 7200 3600 86400 3600
+securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2041233233 7200 3600 86400 3600
 
 ;; A Records
 api.securerpc.com.	1	IN	A	51.81.93.106
