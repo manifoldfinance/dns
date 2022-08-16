@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     securerpc.com.
-;; Exported:   2022-05-14 21:14:28
+;; Exported:   2022-08-16 05:23:48
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2040422946 7200 3600 86400 3600
+securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2041229402 7200 3600 86400 3600
 
 ;; A Records
 api.securerpc.com.	1	IN	A	51.81.93.106
@@ -43,8 +43,8 @@ gibson.securerpc.com.	1	IN	A	147.135.5.171
 gibson.securerpc.com.	1	IN	A	135.148.171.175
 
 ;; CNAME Records
-securerpc.com.	1	IN	CNAME	cname.vercel-dns.com.
-www.securerpc.com.	1	IN	CNAME	cname.vercel-dns.com.
+securerpc.com.	1	IN	CNAME	securerpc-www.netlify.app.
+www.securerpc.com.	1	IN	CNAME	securerpc-www.netlify.app.
 
 ;; MX Records
 securerpc.com.	1	IN	MX	10 mxb.mailgun.org.
@@ -52,6 +52,7 @@ securerpc.com.	1	IN	MX	10 mxa.mailgun.org.
 
 ;; TXT Records
 api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-api-securerpc-com\""
+_dmarc.securerpc.com.	1	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:sam@manifoldfinance.com"
 gibson.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-gibson-securerpc-com\""
 mx._domainkey.securerpc.com.	1	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfvspPI85tqaimc18W7fFRufthSiL7kj4aXH4OAzkFBxVO80ol1o8X/5xkSPNssm5hu4xWiPuci/SU48xz4vN8Hy13NdnEnppRPSReMKvf3WEXzl7j+TEcCrIxdebqaQ0h/X3IPrTgeFdbkNbTLrArAOZqxP428PWHdYBpYOgGAQIDAQAB"
 securerpc.com.	1	IN	TXT	"v=spf1 include:mailgun.org -all"
