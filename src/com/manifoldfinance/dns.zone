@@ -1,6 +1,8 @@
 $ORIGIN manifoldfinance.com.
 $TTL 1h
-manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125989 86400 7200 604800 300
+$ORIGIN manifoldfinance.com.
+$TTL 1h
+manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125991 86400 7200 604800 300
 manifoldfinance.com. 3600 IN NS ns1.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns2.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns3.dnsimple.com.
@@ -30,9 +32,9 @@ frill5084.manifoldfinance.com. 3600 IN CNAME u25497065.wl066.sendgrid.net.
 frl._domainkey.manifoldfinance.com. 3600 IN CNAME frl.domainkey.u25497065.wl066.sendgrid.net.
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b._openpgpkey.manifoldfinance.com. 3600 IN TXT "QINBGI9UqQBEADC732yXDU90r7fBK8o+LN+VAEOpUiB2HG42JPvuCcW5WhO                  ZCKn6OwIs2sjCWQBvCA46vO5x0KgxT5X95qkKSOqsNZyaT9p7gKdBCveJ6js                  ZvXaZ2mNcmgYkYSyGG75S1ytzs5O2qhnwwabkPe848O/4xKQlrBqFrf+GZ/W                  aESwWOAw+DZbxFLxcCyH4Ro6k2UaFIt9Uef1pDRCQ+UmWc0UVqGiWSaB97iA"
 manifoldfinance.com. 3600 IN CAA 0 iodef "mailto:sam@manifoldfinance.com"
-_dmarc.manifoldfinance.com. 3600 IN TXT "v=DMARC1; p=quarantine; ruf=mailto:ops@manifoldfinance.com; rua=mailto:ops@manifoldfinance.com;  _dmarc.manifoldfinance.com"
 manifoldfinance.com. 3600 IN DNSKEY 257 3 8 AwEAAdq++sGSiZQMJtvwhIUQ7NP7xl5IkbWbrQADJcDVpX6TJ18+A9x/LqRb1oYFQzixieKBCFHxD/UhFv4lZe8RzhVxGka0CV23MuezB5mrFyh/Q0llw0WclqswaEubFeNBApVFS5yn8NV7oN3XTE0rqQ8+VZtb2zgOB5R5Ufv1oemOYcl3Gj3/B56OxWkRAreQb9FurI/5fPDTZRGA+CabRKk=
 manifoldfinance.com. 3600 IN DNSKEY 256 3 8 AwEAAbngk0FzvDUHNOvahFOWtssW/SmcXof9OsEXIXKdW8GllMoQ7X0ELBW2B9tvw2tAbAiuP+ZBaBI0+IwJ/6i9nnTiF55eQWUtsVa8zBqVW2fCCHZoSv3ahmGqTQMq3vVBPLALRfUWHbL6XgBE+EoZAJJvIuOGiwIC5byfNjHY/icD
 manifoldfinance.com. 3600 IN CDNSKEY 257 3 8 AwEAAdq++sGSiZQMJtvwhIUQ7NP7xl5IkbWbrQADJcDVpX6TJ18+A9x/LqRb1oYFQzixieKBCFHxD/UhFv4lZe8RzhVxGka0CV23MuezB5mrFyh/Q0llw0WclqswaEubFeNBApVFS5yn8NV7oN3XTE0rqQ8+VZtb2zgOB5R5Ufv1oemOYcl3Gj3/B56OxWkRAreQb9FurI/5fPDTZRGA+CabRKk=
 manifoldfinance.com. 3600 IN CDS 60271 8 2 A76FE00848ECEF953EEB537710F967253B834ED3E1FC5E648DC27B148CE3E3A6
 kb.manifoldfinance.com. 3600 IN CNAME cname.vercel-dns.com.
+_dmarc.manifoldfinance.com. 3600 IN TXT "v=DMARC1; p=reject; adkim=s; aspf=s; rua=mailto:ops@manifoldfinance.com; ruf=mailto:ops@manifoldfinance.com; fo=1;"
