@@ -1,7 +1,5 @@
 $ORIGIN manifoldfinance.com.
 $TTL 1h
-$ORIGIN manifoldfinance.com.
-$TTL 1h
 manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125991 86400 7200 604800 300
 manifoldfinance.com. 3600 IN NS ns1.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns2.dnsimple.com.
