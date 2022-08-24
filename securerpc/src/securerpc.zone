@@ -1,19 +1,15 @@
 $ORIGIN securerpc.com.
 $TTL 1h
-securerpc.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1641932829 86400 7200 604800 300
+securerpc.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1641932836 86400 7200 604800 300
 securerpc.com. 3600 IN NS ns1.dnsimple.com.
 securerpc.com. 3600 IN NS ns2.dnsimple.com.
 securerpc.com. 3600 IN NS ns3.dnsimple.com.
 securerpc.com. 3600 IN NS ns4.dnsimple.com.
 securerpc.com. 3600 IN A 76.76.21.21
+; securerpc.com. 3600 IN ALIAS apex-loadbalancer.netlify.com.
+securerpc.com. 3600 IN TXT "ALIAS for apex-loadbalancer.netlify.com"
 securerpc.com. 3600 IN MX 10 mxa.mailgun.org.
 securerpc.com. 3600 IN MX 10 mxb.mailgun.org.
 securerpc.com. 3600 IN SPF v=spf1 include:mailgun.org ~all
 securerpc.com. 3600 IN TXT "v=spf1 include:mailgun.org ~all"
-mx._domainkey.securerpc.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfvspPI85tqaimc18W7fFRufthSiL7kj4aXH4OAzkFBxVO80ol1o8X/5xkSPNssm5hu4xWiPuci/SU48xz4vN8Hy13NdnEnppRPSReMKvf3WEXzl7j+TEcCrIxdebqaQ0h/X3IPrTgeFdbkNbTLrArAOZqxP428PWHdYBpYOgGAQIDAQAB"
-; securerpc.com. 3600 IN ALIAS apex-loadbalancer.netlify.com.
-securerpc.com. 3600 IN TXT "ALIAS for apex-loadbalancer.netlify.com"
-securerpc.com. 3600 IN DNSKEY 257 3 8 AwEAAeOSBtn9yr3hO8FaFhB38jmVPHualXxaN1/2GqkXRpKN6GTV4KVZMnalpBrPeKdyA46qSMsO9UeBL6+2NsLNG5ALsgp/AFadcqWL6n1hoaFzez/rHBJWPXRdYf2j5Zo8NGkNbGukEc8xgiB4dSoEq0V1hFoOxPQ4ndt99Z1RX89ugNx4BB7zAMLOpNgW9E7jMNL9ko6gzd+yMhQ8bVJf5Xk=
-securerpc.com. 3600 IN DNSKEY 256 3 8 AwEAAcBIEiw7QgJJxb092A4p2VTgwcPhg/5N3WN/OGqNwHrIPQbkbTvfss0vsINoYqeqDPZtfm1jLGmCiNcjWfvpXiR+dHjiirIZ3/FYIn51m9Pj9lFFFsjCvSIKSmsdF3zCYI3KWoFhqKi1Gzasw+WBgSkAW6fFuQk0NgGb0nKy0Mdp
-securerpc.com. 3600 IN CDNSKEY 257 3 8 AwEAAeOSBtn9yr3hO8FaFhB38jmVPHualXxaN1/2GqkXRpKN6GTV4KVZMnalpBrPeKdyA46qSMsO9UeBL6+2NsLNG5ALsgp/AFadcqWL6n1hoaFzez/rHBJWPXRdYf2j5Zo8NGkNbGukEc8xgiB4dSoEq0V1hFoOxPQ4ndt99Z1RX89ugNx4BB7zAMLOpNgW9E7jMNL9ko6gzd+yMhQ8bVJf5Xk=
-securerpc.com. 3600 IN CDS 4870 8 2 44A9559C8146C8DD2D429DB6D7155D9995498AB9EE30AC95973B158452E06BB3
+smtp._domainkey.securerpc.com. 3600 IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+LwZRC5NOcAgfLjv/WP8sGhY1FFBDRU1CP6Jpadfa3yuhl6fpA5Y7AnZaLqipsqTfuhWoXa7V2+OTY9QpYohJtyugqI8YFjPUX0jT5yR5Aufv9ScXmJNO3hpL6kJzI4JuHON14oq0FKMOnVZeY5SnAJ8PEGnv4bWk1zuelpEawwIDAQAB"
