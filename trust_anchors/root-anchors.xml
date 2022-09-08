@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TrustAnchor id="0AF79DEA-A7CD-43DC-9EDD-AD241CA63AE2" source="http://data.iana.org/root-anchors/root-anchors.xml">
+<TrustAnchor id="380DC50D-484E-40D0-A3AE-68F2B18F61C7" source="http://data.iana.org/root-anchors/root-anchors.xml">
 <Zone>.</Zone>
-<KeyDigest id="Kjqmt7v" validFrom="2010-07-15T00:00:00+00:00">
+<KeyDigest id="Kjqmt7v" validFrom="2010-07-15T00:00:00+00:00" validUntil="2019-01-11T00:00:00+00:00">
 <KeyTag>19036</KeyTag>
 <Algorithm>8</Algorithm>
 <DigestType>2</DigestType>
