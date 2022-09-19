@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     securerpc.com.
-;; Exported:   2022-09-19 20:06:22
+;; Exported:   2022-09-19 20:56:29
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,7 +24,7 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2041528458 7200 3600 86400 3600
+securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2041528758 7200 3600 86400 3600
 
 ;; A Records
 api.securerpc.com.	1	IN	A	51.81.93.106
@@ -63,7 +63,8 @@ mainnet-relay.securerpc.com.	1	IN	A	135.148.171.175
 
 ;; CNAME Records
 ipfs.securerpc.com.	1	IN	CNAME	ipfs.cloudflare.com.
-securerpc.com.	1	IN	CNAME	securerpc-www.netlify.app.
+securerpc.com.	1	IN	CNAME	securerpc.netlify.app.
+web.securerpc.com.	1	IN	CNAME	apex-loadbalancer.netlify.com.
 www.securerpc.com.	1	IN	CNAME	securerpc-www.netlify.app.
 
 ;; MX Records
