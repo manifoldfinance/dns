@@ -1,6 +1,6 @@
 $ORIGIN manifoldfinance.com.
 $TTL 1h
-manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125991 86400 7200 604800 300
+manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125992 86400 7200 604800 300
 manifoldfinance.com. 3600 IN NS ns1.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns2.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns3.dnsimple.com.
@@ -36,3 +36,4 @@ manifoldfinance.com. 3600 IN CDNSKEY 257 3 8 AwEAAdq++sGSiZQMJtvwhIUQ7NP7xl5IkbW
 manifoldfinance.com. 3600 IN CDS 60271 8 2 A76FE00848ECEF953EEB537710F967253B834ED3E1FC5E648DC27B148CE3E3A6
 kb.manifoldfinance.com. 3600 IN CNAME cname.vercel-dns.com.
 _dmarc.manifoldfinance.com. 3600 IN TXT "v=DMARC1; p=reject; adkim=s; aspf=s; rua=mailto:ops@manifoldfinance.com; ruf=mailto:ops@manifoldfinance.com; fo=1;"
+_github-pages-challenge-manifoldfinance.manifoldfinance.com. 3600 IN TXT "57d189fee4783bacd9965cc0b8fb84"
