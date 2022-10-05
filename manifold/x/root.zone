@@ -1,0 +1,123 @@
+;;
+;; Domain:     manifoldx.com.
+;; Exported:   2022-10-05 10:19:38
+manifoldx.com	3600	IN	SOA	manifoldx.com root.manifoldx.com 2041663177 7200 3600 86400 3600
+
+;; A Records
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	51.81.93.106
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	51.81.56.56
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.70.119
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.65.21
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.65.191
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.5.171
+adminer.relay-prod.ing.manifoldx.com.	1	IN	A	135.148.171.175
+adminer.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.149
+adminer.relay-stag.ing.manifoldx.com.	1	IN	A	147.135.6.219
+adminer.relay-stag.ing.manifoldx.com.	1	IN	A	147.135.11.172
+adminer.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.171.174
+adminer.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.86
+adminer.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.85
+alerts.fsn1-prod.ing.manifoldx.com.	1	IN	A	10.102.58.123
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.103.176
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.103.17
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.100.81
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	51.81.56.204
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	51.81.107.186
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.103.195
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.103.181
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.103.148
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	135.148.100.150
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	A	147.135.15.241
+alerts.overwatch.ing.manifoldx.com.	1	IN	A	51.81.66.18
+alerts.overwatch.ing.manifoldx.com.	1	IN	A	51.81.56.96
+alerts.overwatch.ing.manifoldx.com.	1	IN	A	147.135.10.141
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	51.81.93.106
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	51.81.56.56
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.70.119
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.65.21
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.65.191
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.5.171
+alerts.relay-prod.ing.manifoldx.com.	1	IN	A	135.148.171.175
+alerts.relay-stag.ing.manifoldx.com.	1	IN	A	147.135.6.219
+alerts.relay-stag.ing.manifoldx.com.	1	IN	A	147.135.11.172
+alerts.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.171.174
+alerts.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.86
+alerts.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.85
+alerts.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.149
+auth.manifoldx.com.	1	IN	A	51.81.66.18
+auth.manifoldx.com.	1	IN	A	51.81.56.96
+auth.manifoldx.com.	1	IN	A	147.135.10.141
+build-nar-serve.manifoldx.com.	1	IN	A	44.232.177.150
+grafana.manifoldx.com.	1	IN	A	51.81.66.18
+grafana.manifoldx.com.	1	IN	A	51.81.56.96
+grafana.manifoldx.com.	1	IN	A	147.135.10.141
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	51.81.93.106
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	51.81.56.56
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.70.119
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.65.21
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.65.191
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	147.135.5.171
+kowl.relay-prod.ing.manifoldx.com.	1	IN	A	135.148.171.175
+kowl.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.149
+kowl.relay-stag.ing.manifoldx.com.	1	IN	A	147.135.6.219
+kowl.relay-stag.ing.manifoldx.com.	1	IN	A	147.135.11.172
+kowl.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.171.174
+kowl.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.86
+kowl.relay-stag.ing.manifoldx.com.	1	IN	A	135.148.100.85
+kubeapi-oracle-prod.k8s.manifoldx.com.	1	IN	A	147.135.15.241
+kubeapi-overwatch.k8s.manifoldx.com.	1	IN	A	147.135.10.141
+kubeapi-relay-prod.k8s.manifoldx.com.	1	IN	A	147.135.5.171
+kubeapi-relay-stag.k8s.manifoldx.com.	1	IN	A	147.135.6.219
+monitoring.manifoldx.com.	1	IN	A	51.81.66.18
+monitoring.manifoldx.com.	1	IN	A	51.81.56.96
+monitoring.manifoldx.com.	1	IN	A	147.135.10.141
+oauth2-proxy.manifoldx.com.	1	IN	A	51.81.66.18
+oauth2-proxy.manifoldx.com.	1	IN	A	51.81.56.96
+oauth2-proxy.manifoldx.com.	1	IN	A	147.135.10.141
+oracle-prod.manifoldx.com.	1	IN	A	135.148.103.176
+oracle-prod.manifoldx.com.	1	IN	A	135.148.103.17
+oracle-prod.manifoldx.com.	1	IN	A	135.148.100.81
+oracle-prod.manifoldx.com.	1	IN	A	51.81.56.204
+oracle-prod.manifoldx.com.	1	IN	A	51.81.107.186
+oracle-prod.manifoldx.com.	1	IN	A	135.148.103.195
+oracle-prod.manifoldx.com.	1	IN	A	135.148.103.181
+oracle-prod.manifoldx.com.	1	IN	A	135.148.103.148
+oracle-prod.manifoldx.com.	1	IN	A	135.148.100.150
+oracle-prod.manifoldx.com.	1	IN	A	147.135.15.241
+vmalertmanager-overwatch.k8s.manifoldx.com.	1	IN	A	51.81.66.18
+vmalertmanager-overwatch.k8s.manifoldx.com.	1	IN	A	51.81.56.96
+vmalertmanager-overwatch.k8s.manifoldx.com.	1	IN	A	147.135.10.141
+vmalert-overwatch.k8s.manifoldx.com.	1	IN	A	51.81.66.18
+vmalert-overwatch.k8s.manifoldx.com.	1	IN	A	51.81.56.96
+vmalert-overwatch.k8s.manifoldx.com.	1	IN	A	147.135.10.141
+
+;; MX Records
+manifoldx.com.	1	IN	MX	1 aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	5 alt2.aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	5 alt1.aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	10 alt3.aspmx.l.google.com.
+manifoldx.com.	1	IN	MX	10 alt4.aspmx.l.google.com.
+
+;; TXT Records
+a-alerts.fsn1-prod.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+adminer.relay-prod.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/adminer-ingress\""
+adminer.relay-stag.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/adminer-ingress\""
+alerts.fsn1-prod.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+alerts.oracle-prod.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+alerts.overwatch.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+alerts.relay-prod.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+alerts.relay-stag.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+auth.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/dex\""
+_dmarc.manifoldx.com.	1	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:reports@manifoldx.com; ruf=mailto:reports@manifoldx.com; pct=100; fo=0:1:d:s;"
+google._domainkey.manifoldx.com.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArwRoH9AgQgYR6b4vWYj6W/f2XjH3WyfqDQsNXGun1725bk0GfnqQJwldfql3Bxm6/9QnhA5Viq9r1jNe62ItonSOBMtwylw6mCXTAT7jFBYR1TTPplHpw5X1dDlqS2bHA1LLjHF4sVr9nNuniyInJ6qArw3O1aTAMxP/CVGxBK6QhWoaQSW3OVMghQIbaE7CZObU0T2bIJipQZF9DUO8tEUOK2eaZsakztHICMSrOdkqzR5gurn8I7lXnacpXRFUa0zIPAOqs20MO1nok1Gm6vp3NiEML72IRTQdEXNsKCBPLlkxR9bqQs3iUc4XwSA2DcEqfOE/aubFRq+AHZDFjwIDAQAB"
+grafana.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/grafana\""
+kowl.relay-prod.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/kowl\""
+kowl.relay-stag.ing.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/kowl\""
+manifoldx.com.	1	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+manifoldx.com.	1	IN	TXT	"google-site-verification=lQLwC4s7gjeQSGZxTsNzh9_SYYpLWfzmPHHoIVVDKc0"
+monitoring.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/vmauth-main\""
+oauth2-proxy.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/oauth2-proxy\""
+oracle-prod.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/ingress\""
+_smtp._tls.manifoldx.com.	1	IN	TXT	"v=TLSRPTv1;rua=reports@manifoldx.com;"
+vmalertmanager-overwatch.k8s.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalertmanager\""
+vmalert-overwatch.k8s.manifoldx.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/grafana-agent/vmalert\""
