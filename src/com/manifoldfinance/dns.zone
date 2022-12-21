@@ -1,6 +1,6 @@
 $ORIGIN manifoldfinance.com.
 $TTL 1h
-manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125992 86400 7200 604800 300
+manifoldfinance.com. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1604125997 86400 7200 604800 300
 manifoldfinance.com. 3600 IN NS ns1.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns2.dnsimple.com.
 manifoldfinance.com. 3600 IN NS ns3.dnsimple.com.
@@ -30,10 +30,13 @@ frill5084.manifoldfinance.com. 3600 IN CNAME u25497065.wl066.sendgrid.net.
 frl._domainkey.manifoldfinance.com. 3600 IN CNAME frl.domainkey.u25497065.wl066.sendgrid.net.
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b._openpgpkey.manifoldfinance.com. 3600 IN TXT "QINBGI9UqQBEADC732yXDU90r7fBK8o+LN+VAEOpUiB2HG42JPvuCcW5WhO                  ZCKn6OwIs2sjCWQBvCA46vO5x0KgxT5X95qkKSOqsNZyaT9p7gKdBCveJ6js                  ZvXaZ2mNcmgYkYSyGG75S1ytzs5O2qhnwwabkPe848O/4xKQlrBqFrf+GZ/W                  aESwWOAw+DZbxFLxcCyH4Ro6k2UaFIt9Uef1pDRCQ+UmWc0UVqGiWSaB97iA"
 manifoldfinance.com. 3600 IN CAA 0 iodef "mailto:sam@manifoldfinance.com"
-manifoldfinance.com. 3600 IN DNSKEY 257 3 8 AwEAAdq++sGSiZQMJtvwhIUQ7NP7xl5IkbWbrQADJcDVpX6TJ18+A9x/LqRb1oYFQzixieKBCFHxD/UhFv4lZe8RzhVxGka0CV23MuezB5mrFyh/Q0llw0WclqswaEubFeNBApVFS5yn8NV7oN3XTE0rqQ8+VZtb2zgOB5R5Ufv1oemOYcl3Gj3/B56OxWkRAreQb9FurI/5fPDTZRGA+CabRKk=
-manifoldfinance.com. 3600 IN DNSKEY 256 3 8 AwEAAbngk0FzvDUHNOvahFOWtssW/SmcXof9OsEXIXKdW8GllMoQ7X0ELBW2B9tvw2tAbAiuP+ZBaBI0+IwJ/6i9nnTiF55eQWUtsVa8zBqVW2fCCHZoSv3ahmGqTQMq3vVBPLALRfUWHbL6XgBE+EoZAJJvIuOGiwIC5byfNjHY/icD
-manifoldfinance.com. 3600 IN CDNSKEY 257 3 8 AwEAAdq++sGSiZQMJtvwhIUQ7NP7xl5IkbWbrQADJcDVpX6TJ18+A9x/LqRb1oYFQzixieKBCFHxD/UhFv4lZe8RzhVxGka0CV23MuezB5mrFyh/Q0llw0WclqswaEubFeNBApVFS5yn8NV7oN3XTE0rqQ8+VZtb2zgOB5R5Ufv1oemOYcl3Gj3/B56OxWkRAreQb9FurI/5fPDTZRGA+CabRKk=
-manifoldfinance.com. 3600 IN CDS 60271 8 2 A76FE00848ECEF953EEB537710F967253B834ED3E1FC5E648DC27B148CE3E3A6
 kb.manifoldfinance.com. 3600 IN CNAME cname.vercel-dns.com.
 _dmarc.manifoldfinance.com. 3600 IN TXT "v=DMARC1; p=reject; adkim=s; aspf=s; rua=mailto:ops@manifoldfinance.com; ruf=mailto:ops@manifoldfinance.com; fo=1;"
 _github-pages-challenge-manifoldfinance.manifoldfinance.com. 3600 IN TXT "57d189fee4783bacd9965cc0b8fb84"
+_ens.manifoldfinance.com. 3600 IN TXT "a=0xA0766B65A4f7B1da79a1AF79aC695456eFa28644"
+manifoldfinance.com. 3600 IN DNSKEY 257 3 8 AwEAAcE62GPjm0qQ+YkqXmY0FgcKz74Mp+HZMkdPgcETwyC/BPIOTeBQZbJLCoQee5Ld13L6fRptH0vG3fY/IB9u3xTfIU/Qnb7iMHlHuHJcu31ocKt0o7fM2LvESW5yDRXOZMiryKdO+cDLPRwt5Mz1jK2zi/Nk2x8gbt1FeCpmHp7MvCaEhyDyeAZuTaW2HMecx2dBb0FyU4q4bSVRwMNcck0=
+manifoldfinance.com. 3600 IN DNSKEY 256 3 8 AwEAAdmq6NuF+dYuEx+o/tBMt4sDLdF7gZul/uXNEgjeXlKn9o/9w0WLupdVyZMGOiM9U7O3Pi5erPffm5GgXj1o8BfZzvVThC9xt4ahanMgeYNQ5a5mVFRfQTTF1nGCygn9RadwDrZsUUqRBg28/0CwCROLkAN5VAM1gkPGHaYRTOOV
+manifoldfinance.com. 3600 IN CDNSKEY 257 3 8 AwEAAcE62GPjm0qQ+YkqXmY0FgcKz74Mp+HZMkdPgcETwyC/BPIOTeBQZbJLCoQee5Ld13L6fRptH0vG3fY/IB9u3xTfIU/Qnb7iMHlHuHJcu31ocKt0o7fM2LvESW5yDRXOZMiryKdO+cDLPRwt5Mz1jK2zi/Nk2x8gbt1FeCpmHp7MvCaEhyDyeAZuTaW2HMecx2dBb0FyU4q4bSVRwMNcck0=
+manifoldfinance.com. 3600 IN CDS 3491 8 2 F78BE5DC1BA7AF8AC289F28ADC590A01EC92F4CF9634988CCB2CED03F81DFE1C
+20221203165829pm._domainkey.manifoldfinance.com. 3600 IN TXT "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxdGUAaQ/e8yE+RUnesGdN/BiLjIehi0ZHbCNVzsifbZQRMR2iH6mC5tN5LpsvwdqpVWQbkT+hMPATkoHLwlEFQTl1GVEK+820epKy1salJ4S5etcWQwXdjZzGQEDp+n0hNyvPnaoWJD1JR3yTgw9Wq1FkZ6Ko5cSLdy9UVaCzCQIDAQAB"
+pm-bounces.manifoldfinance.com. 3600 IN CNAME pm.mtasv.net.
