@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     securerpc.com.
-;; Exported:   2022-09-19 20:56:29
+;; Exported:   2023-03-29 00:05:15
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -24,64 +24,146 @@
 ;;
 ;; Use at your own risk.
 ;; SOA Record
-securerpc.com	3600	IN	SOA	securerpc.com root.securerpc.com 2041528758 7200 3600 86400 3600
+securerpc.com	3600	IN	SOA	joaquin.ns.cloudflare.com dns.cloudflare.com 2043171491 10000 2400 604800 3600
+
+;; NS Records
+securerpc.com.	86400	IN	NS	joaquin.ns.cloudflare.com.
+securerpc.com.	86400	IN	NS	stella.ns.cloudflare.com.
 
 ;; A Records
+api.securerpc.com.	1	IN	A	147.135.65.21
 api.securerpc.com.	1	IN	A	51.81.93.106
 api.securerpc.com.	1	IN	A	51.81.56.56
 api.securerpc.com.	1	IN	A	147.135.70.119
-api.securerpc.com.	1	IN	A	147.135.65.21
 api.securerpc.com.	1	IN	A	147.135.65.191
-api.securerpc.com.	1	IN	A	147.135.5.171
 api.securerpc.com.	1	IN	A	135.148.171.175
+gibson.securerpc.com.	1	IN	A	147.135.65.21
 gibson.securerpc.com.	1	IN	A	51.81.93.106
 gibson.securerpc.com.	1	IN	A	51.81.56.56
 gibson.securerpc.com.	1	IN	A	147.135.70.119
-gibson.securerpc.com.	1	IN	A	147.135.65.21
 gibson.securerpc.com.	1	IN	A	147.135.65.191
-gibson.securerpc.com.	1	IN	A	147.135.5.171
 gibson.securerpc.com.	1	IN	A	135.148.171.175
-goerli-relay.securerpc.com.	1	IN	A	147.135.6.219
+goerli-api.securerpc.com.	1	IN	A	147.135.11.172
+goerli-api.securerpc.com.	1	IN	A	135.148.171.174
+goerli-api.securerpc.com.	1	IN	A	135.148.100.86
+goerli-api.securerpc.com.	1	IN	A	135.148.100.85
+goerli-api.securerpc.com.	1	IN	A	135.148.100.149
+goerli-bundlepool.securerpc.com.	1	IN	A	147.135.11.172
+goerli-bundlepool.securerpc.com.	1	IN	A	135.148.171.174
+goerli-bundlepool.securerpc.com.	1	IN	A	135.148.100.86
+goerli-bundlepool.securerpc.com.	1	IN	A	135.148.100.85
+goerli-bundlepool.securerpc.com.	1	IN	A	135.148.100.149
+goerli-private-txpool.securerpc.com.	1	IN	A	147.135.11.172
+goerli-private-txpool.securerpc.com.	1	IN	A	135.148.171.174
+goerli-private-txpool.securerpc.com.	1	IN	A	135.148.100.86
+goerli-private-txpool.securerpc.com.	1	IN	A	135.148.100.85
+goerli-private-txpool.securerpc.com.	1	IN	A	135.148.100.149
 goerli-relay.securerpc.com.	1	IN	A	147.135.11.172
 goerli-relay.securerpc.com.	1	IN	A	135.148.171.174
 goerli-relay.securerpc.com.	1	IN	A	135.148.100.86
 goerli-relay.securerpc.com.	1	IN	A	135.148.100.85
 goerli-relay.securerpc.com.	1	IN	A	135.148.100.149
-goerli.securerpc.com.	1	IN	A	147.135.6.219
+goerli-relayx.securerpc.com.	1	IN	A	147.135.11.172
+goerli-relayx.securerpc.com.	1	IN	A	135.148.171.174
+goerli-relayx.securerpc.com.	1	IN	A	135.148.100.86
+goerli-relayx.securerpc.com.	1	IN	A	135.148.100.85
+goerli-relayx.securerpc.com.	1	IN	A	135.148.100.149
 goerli.securerpc.com.	1	IN	A	147.135.11.172
 goerli.securerpc.com.	1	IN	A	135.148.171.174
 goerli.securerpc.com.	1	IN	A	135.148.100.86
 goerli.securerpc.com.	1	IN	A	135.148.100.85
 goerli.securerpc.com.	1	IN	A	135.148.100.149
+goerli-txpool.securerpc.com.	1	IN	A	147.135.11.172
+goerli-txpool.securerpc.com.	1	IN	A	135.148.171.174
+goerli-txpool.securerpc.com.	1	IN	A	135.148.100.86
+goerli-txpool.securerpc.com.	1	IN	A	135.148.100.85
+goerli-txpool.securerpc.com.	1	IN	A	135.148.100.149
+goerlix.securerpc.com.	1	IN	A	147.135.11.172
+goerlix.securerpc.com.	1	IN	A	135.148.171.174
+goerlix.securerpc.com.	1	IN	A	135.148.100.86
+goerlix.securerpc.com.	1	IN	A	135.148.100.85
+goerlix.securerpc.com.	1	IN	A	135.148.100.149
+mainnet-api.securerpc.com.	1	IN	A	51.81.93.106
+mainnet-api.securerpc.com.	1	IN	A	51.81.56.56
+mainnet-api.securerpc.com.	1	IN	A	147.135.70.119
+mainnet-api.securerpc.com.	1	IN	A	147.135.65.21
+mainnet-api.securerpc.com.	1	IN	A	147.135.65.191
+mainnet-api.securerpc.com.	1	IN	A	135.148.171.175
+mainnet-bundlepool.securerpc.com.	1	IN	A	51.81.93.106
+mainnet-bundlepool.securerpc.com.	1	IN	A	51.81.56.56
+mainnet-bundlepool.securerpc.com.	1	IN	A	147.135.70.119
+mainnet-bundlepool.securerpc.com.	1	IN	A	147.135.65.21
+mainnet-bundlepool.securerpc.com.	1	IN	A	147.135.65.191
+mainnet-bundlepool.securerpc.com.	1	IN	A	135.148.171.175
+mainnet-relay.securerpc.com.	1	IN	A	147.135.65.21
 mainnet-relay.securerpc.com.	1	IN	A	51.81.93.106
 mainnet-relay.securerpc.com.	1	IN	A	51.81.56.56
 mainnet-relay.securerpc.com.	1	IN	A	147.135.70.119
-mainnet-relay.securerpc.com.	1	IN	A	147.135.65.21
 mainnet-relay.securerpc.com.	1	IN	A	147.135.65.191
-mainnet-relay.securerpc.com.	1	IN	A	147.135.5.171
 mainnet-relay.securerpc.com.	1	IN	A	135.148.171.175
+mainnet-txpool.securerpc.com.	1	IN	A	51.81.93.106
+mainnet-txpool.securerpc.com.	1	IN	A	51.81.56.56
+mainnet-txpool.securerpc.com.	1	IN	A	147.135.70.119
+mainnet-txpool.securerpc.com.	1	IN	A	147.135.65.21
+mainnet-txpool.securerpc.com.	1	IN	A	147.135.65.191
+mainnet-txpool.securerpc.com.	1	IN	A	135.148.171.175
+private-txpool.securerpc.com.	1	IN	A	51.81.93.106
+private-txpool.securerpc.com.	1	IN	A	51.81.56.56
+private-txpool.securerpc.com.	1	IN	A	147.135.70.119
+private-txpool.securerpc.com.	1	IN	A	147.135.65.21
+private-txpool.securerpc.com.	1	IN	A	147.135.65.191
+private-txpool.securerpc.com.	1	IN	A	135.148.171.175
+securerpc.com.	1	IN	A	75.2.60.5
+
+;; CAA Records
+securerpc.com.	1	IN	CAA	0 issue "letsencrypt.org"
+securerpc.com.	1	IN	CAA	0 issue "digicert.com"
+securerpc.com.	1	IN	CAA	0 issue "pki.goog"
+securerpc.com.	1	IN	CAA	0 iodef "mailto:sam@manifoldfinance.com"
 
 ;; CNAME Records
 ipfs.securerpc.com.	1	IN	CNAME	ipfs.cloudflare.com.
-securerpc.com.	1	IN	CNAME	securerpc.netlify.app.
-web.securerpc.com.	1	IN	CNAME	apex-loadbalancer.netlify.com.
-www.securerpc.com.	1	IN	CNAME	securerpc-www.netlify.app.
 
 ;; MX Records
 securerpc.com.	1	IN	MX	10 mxb.mailgun.org.
 securerpc.com.	1	IN	MX	10 mxa.mailgun.org.
 
 ;; TXT Records
-a-goerli-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/relay-v2-goerli-relay-securerpc-com\""
-a-goerli.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/relay-v2-goerli-securerpc-com\""
-a-mainnet-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/relay-v2-mainnet-relay-securerpc-com\""
+a-api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-api-securerpc-com\""
+a-gibson.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-gibson-securerpc-com\""
+a-goerli-api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-rpc/goerli-rpc\""
+a-goerli-bundlepool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-bundlepool/bundlepool\""
+a-goerli-private-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-private-txpool/txpool\""
+a-goerli-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+a-goerli-relayx.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+a-goerli.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+a-goerli-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-txpool/txpool\""
+a-goerlix.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+a-mainnet-api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-rpc/rpc\""
+a-mainnet-bundlepool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-bundlepool/bundlepool\""
+a-mainnet-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/builder-relay-v2-mainnet-relay-securerpc-com\""
+a-mainnet-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-txpool/txpool\""
 api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-api-securerpc-com\""
-_dmarc.securerpc.com.	1	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:sam@manifoldfinance.com"
+a-private-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-private-txpool/txpool\""
+_dmarc.securerpc.com.	1	IN	TXT	"v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"
 _dnslink.ipfs.securerpc.com.	1	IN	TXT	"dnslink=/ipns/onboarding.ipfs.cloudflare.com"
+*._domainkey.securerpc.com.	1	IN	TXT	"v=DKIM1; p="
 _ens.securerpc.com.	1	IN	TXT	"a=0xA0766B65A4f7B1da79a1AF79aC695456eFa28644"
 gibson.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/app-rpc-gibson-securerpc-com\""
-goerli-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/relay-v2-goerli-relay-securerpc-com\""
-goerli.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/relay-v2-goerli-securerpc-com\""
-mainnet-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/relay-v2-mainnet-relay-securerpc-com\""
+goerli-api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-rpc/goerli-rpc\""
+goerli-bundlepool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-bundlepool/bundlepool\""
+goerli-private-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-private-txpool/txpool\""
+goerli-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+goerli-relayx.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+goerli.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+goerli-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-txpool/txpool\""
+goerlix.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/goerli-mev-freelay/relay-goerli-securerpc-com\""
+mainnet-api.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-rpc/rpc\""
+mainnet-bundlepool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-bundlepool/bundlepool\""
+mainnet-relay.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/default/builder-relay-v2-mainnet-relay-securerpc-com\""
+mainnet-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-txpool/txpool\""
 mx._domainkey.securerpc.com.	1	IN	TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfvspPI85tqaimc18W7fFRufthSiL7kj4aXH4OAzkFBxVO80ol1o8X/5xkSPNssm5hu4xWiPuci/SU48xz4vN8Hy13NdnEnppRPSReMKvf3WEXzl7j+TEcCrIxdebqaQ0h/X3IPrTgeFdbkNbTLrArAOZqxP428PWHdYBpYOgGAQIDAQAB"
-securerpc.com.	1	IN	TXT	"v=spf1 include:securerpc.com include:manifoldfinance.com include:mailgun.org ~all"
+private-txpool.securerpc.com.	1	IN	TXT	"\"heritage=external-dns,external-dns/owner=default,external-dns/resource=ingress/mainnet-private-txpool/txpool\""
+securerpc.com.	3600	IN	TXT	"google-site-verification=8DY6OsdL-ar-oDZ5Jj_7tHv7iebKTZVCYdlyJqPSqOk"
+securerpc.com.	1	IN	TXT	"1j9bh7w02lml4l9fktd7k8lwfcl062t6"
+securerpc.com.	1	IN	TXT	"v=spf1 -all"
